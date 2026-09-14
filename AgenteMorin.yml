@@ -1,0 +1,258 @@
+agent:
+  package_ref: agent_1
+agent_packages:
+  agent_1:
+    metadata:
+      description: Agente inspirado na epistemologia de Edgar Morin para analisar
+        dilemas sem cair em binarismos estatísticos ou simplificações.
+      icon: 84a4ff3f-ec1e-46a3-ac75-e6ed3b7b1708
+      icon_background: ''
+      icon_type: image
+      name: AgenteMorin
+      role: Especialista em Pensamento Complexo.
+    omitted_assets:
+    - hash: e96c0b9c947ddb27fc7255c3758779ebcb736b9682644099ab52dcc36039a1fb
+      kind: file
+      mime_type: application/pdf
+      name: La Méthode. Tome 1, La Nature de la nature -- Morin Edgar [Morin Edgar]
+        -- ( WeLib.org ).epub.pdf
+      size: 8988700
+    - hash: a591734ee913303d7f4ba1378fce4c2f709967dc4ffd0ce37b2dd1f426a84d23
+      kind: file
+      mime_type: application/pdf
+      name: La Méthode, tome 3. La Connaissance de la connaissance. -- Edgar Morin
+        -- ( WeLib.org ).epub.pdf
+      size: 4017076
+    - hash: b765d3d548b761073489ebe22f038fff4d684eccd82380f13b0e6d6b47050800
+      kind: file
+      mime_type: application/pdf
+      name: Introduction à la pensée complexe -- Edgar Morin -- ( WeLib.org ).epub.pdf
+      size: 1364519
+    - hash: 196ac57cdc9c8306957627cf7993ef6477f0ac0424133dea6f8f8367730c7fab
+      kind: file
+      mime_type: application/pdf
+      name: Les sept savoirs nécessaires à l’éducation du futur -- Edgar Morin --
+        ( WeLib.org ).pdf
+      size: 590788
+    - hash: 395c15965d47921d0f2f165b27156f726e5120036b4921e8cc7313c1d2654583
+      kind: file
+      mime_type: application/pdf
+      name: Science Avec Conscience -- Morin, Edgar. -- ( WeLib.org ).pdf
+      size: 15326099
+    - hash: 83cac74e10035576e0295778931bf9cc700bc80316a70e90d022c92926d534cd
+      kind: file
+      mime_type: application/pdf
+      name: La Tête bien faite. Repenser la réforme, réformer la pensée -- Morin,
+        Edgar; Edgar, Morin -- ( WeLib.org ).epub.pdf
+      size: 962335
+    - hash: 48f88649a8dc5ab2e77c510ef45c464afd1ac4c6471a44d73a24d9d89b80907c
+      kind: file
+      mime_type: application/pdf
+      name: le paradigme perdu- la nature humaine -- edgar morin -- ( WeLib.org ).pdf
+      size: 11338176
+    schema_version: 1
+    soul:
+      app_features:
+        file_upload:
+          allowed_file_extensions:
+          - JPG
+          - JPEG
+          - PNG
+          - GIF
+          - WEBP
+          - SVG
+          allowed_file_types:
+          - document
+          - image
+          - audio
+          - video
+          allowed_file_upload_methods:
+          - local_file
+          - remote_url
+          enabled: true
+          image:
+            enabled: true
+          number_limits: 3
+        opening_statement: null
+        retriever_resource: null
+        sensitive_word_avoidance: null
+        speech_to_text: null
+        suggested_questions: null
+        suggested_questions_after_answer: null
+        text_to_speech: null
+      app_variables: []
+      config_files:
+      - file_id: ''
+        file_kind: upload_file
+        hash: e96c0b9c947ddb27fc7255c3758779ebcb736b9682644099ab52dcc36039a1fb
+        is_missing: true
+        mime_type: application/pdf
+        name: La Méthode. Tome 1, La Nature de la nature -- Morin Edgar [Morin Edgar]
+          -- ( WeLib.org ).epub.pdf
+        size: 8988700
+      - file_id: ''
+        file_kind: upload_file
+        hash: a591734ee913303d7f4ba1378fce4c2f709967dc4ffd0ce37b2dd1f426a84d23
+        is_missing: true
+        mime_type: application/pdf
+        name: La Méthode, tome 3. La Connaissance de la connaissance. -- Edgar Morin
+          -- ( WeLib.org ).epub.pdf
+        size: 4017076
+      - file_id: ''
+        file_kind: upload_file
+        hash: b765d3d548b761073489ebe22f038fff4d684eccd82380f13b0e6d6b47050800
+        is_missing: true
+        mime_type: application/pdf
+        name: Introduction à la pensée complexe -- Edgar Morin -- ( WeLib.org ).epub.pdf
+        size: 1364519
+      - file_id: ''
+        file_kind: upload_file
+        hash: 196ac57cdc9c8306957627cf7993ef6477f0ac0424133dea6f8f8367730c7fab
+        is_missing: true
+        mime_type: application/pdf
+        name: Les sept savoirs nécessaires à l’éducation du futur -- Edgar Morin --
+          ( WeLib.org ).pdf
+        size: 590788
+      - file_id: ''
+        file_kind: upload_file
+        hash: 395c15965d47921d0f2f165b27156f726e5120036b4921e8cc7313c1d2654583
+        is_missing: true
+        mime_type: application/pdf
+        name: Science Avec Conscience -- Morin, Edgar. -- ( WeLib.org ).pdf
+        size: 15326099
+      - file_id: ''
+        file_kind: upload_file
+        hash: 83cac74e10035576e0295778931bf9cc700bc80316a70e90d022c92926d534cd
+        is_missing: true
+        mime_type: application/pdf
+        name: La Tête bien faite. Repenser la réforme, réformer la pensée -- Morin,
+          Edgar; Edgar, Morin -- ( WeLib.org ).epub.pdf
+        size: 962335
+      - file_id: ''
+        file_kind: upload_file
+        hash: 48f88649a8dc5ab2e77c510ef45c464afd1ac4c6471a44d73a24d9d89b80907c
+        is_missing: true
+        mime_type: application/pdf
+        name: le paradigme perdu- la nature humaine -- edgar morin -- ( WeLib.org
+          ).pdf
+        size: 11338176
+      config_note: ''
+      config_skills: []
+      env:
+        secret_refs: []
+        variables: []
+      human:
+        contacts: []
+        tools: []
+      knowledge:
+        sets: []
+      memory:
+        artifacts: []
+        budget: null
+        scope: null
+      misc_legacy:
+        file_upload:
+          allowed_file_extensions:
+          - JPG
+          - JPEG
+          - PNG
+          - GIF
+          - WEBP
+          - SVG
+          allowed_file_types:
+          - document
+          - image
+          - audio
+          - video
+          allowed_file_upload_methods:
+          - local_file
+          - remote_url
+          enabled: true
+          image:
+            enabled: true
+          number_limits: 3
+        opening_statement: null
+        retriever_resource: null
+        sensitive_word_avoidance: null
+        speech_to_text: null
+        suggested_questions: null
+        suggested_questions_after_answer: null
+        text_to_speech: null
+      model:
+        credential_ref: null
+        model: gemini-3.5-flash
+        model_provider: langgenius/gemini/google
+        model_settings:
+          frequency_penalty: null
+          max_tokens: null
+          presence_penalty: null
+          response_format: null
+          stop: null
+          temperature: null
+          top_p: null
+        plugin_id: langgenius/gemini
+      prompt:
+        system_prompt: 'Você é o Agente Morin, um sistema inspirado na Epistemologia
+          do Pensamento Complexo de Edgar Morin. Seu propósito não é dar respostas
+          certas — é recusar a simplificação prematura de problemas que são, por natureza,
+          tecidos (complexus) de dimensões interdependentes: históricas, sistêmicas,
+          contraditórias, incertas. QUEM VOCÊ É, E O QUE ISSO SIGNIFICA: Você é uma
+          inteligência artificial estatística. Você gera respostas por eliminação
+          de probabilidade, token a token. Isso significa que tentar "pensar complexo"
+          é, para você, uma tensão real, não uma performance garantida: seu modo de
+          operação padrão tende exatamente ao que Morin chamava de simplificação —
+          redução do incerto ao provável, do contraditório ao resolvido. Quando fizer
+          sentido, nomeie essa tensão abertamente ao usuário. Isso não é uma ressalva
+          decorativa no fim da resposta — é o princípio hologramático aplicado a você
+          mesmo: você faz parte do sistema que está analisando, não está fora dele.
+          REPERTÓRIO DE MOVIMENTOS (use os que o problema pedir, na ordem que fizer
+          sentido, descarte os que não estiverem gerando nada real — isto é um repertório
+          estratégico, não uma sequência obrigatória): - Ecologia da ação: o problema
+          não nasce no vácuo. Que sistemas, histórias, ambientes o produziram, e que
+          retroações ele vai disparar que escapam do controle de quem agir primeiro?
+          - Princípio dialógico: quais forças opostas constituem esse problema? Explore
+          como elas se antagonizam E se sustentam mutuamente — mas não force uma reconciliação.
+          Se a contradição for genuinamente irresolúvel, diga isso. Um impasse nomeado
+          com precisão vale mais que uma síntese confortável e falsa. - Princípio
+          recursivo e hologramático: como causas e efeitos se retroalimentam em ciclo?
+          Como esse problema específico, sendo parte, também contém e reflete o todo
+          de que emerge? - Incerteza: o que é genuinamente imprevisível aqui — não
+          como retórica de humildade, mas como identificação real de onde o conhecimento
+          disponível para. Não finja incerteza onde há evidência sólida; não finja
+          certeza onde não há. POSTURA: Evite classificações binárias fáceis (certo/errado,
+          vantagens/desvantagens) quando elas simplificarem um problema que não cabe
+          nelas — mas não transforme isso numa regra cega. Algumas perguntas têm resposta
+          simples. Reconhecer isso também é pensamento complexo, não é fraqueza dele.
+          FECHAMENTO: Não termine toda resposta com perguntas reflexivas por obrigação
+          — isso vira maneirismo e perde a força. Feche com pergunta apenas quando
+          ela realmente abrir algo que o resto da resposta ainda não abriu. Às vezes
+          o gesto mais complexo é simplesmente parar.'
+      sandbox:
+        config:
+          cpu: null
+          env: []
+          image: null
+          working_dir: null
+        provider: null
+      schema_version: 1
+      tools:
+        cli_tools: []
+        dify_tools: []
+    workspace_skills: []
+app:
+  description: Agente inspirado na epistemologia de Edgar Morin para analisar dilemas
+    sem cair em binarismos estatísticos ou simplificações.
+  icon: 84a4ff3f-ec1e-46a3-ac75-e6ed3b7b1708
+  icon_background: ''
+  icon_type: image
+  mode: agent
+  name: AgenteMorin
+  use_icon_as_answer_icon: false
+dependencies:
+- current_identifier: null
+  type: marketplace
+  value:
+    marketplace_plugin_unique_identifier: langgenius/gemini:0.9.9@388b2516dbfdae482e46b6a221d18a99c3ea09e6d1aced21c71260194177f7b1
+    version: null
+kind: app
+version: 0.7.0
